@@ -1,0 +1,174 @@
+<html>
+<head>
+<meta http-equip="Content-Type" content ="text/html"; 
+charset=utf-8">
+<link rel="stylesheet", type="text/css" href="style.css">
+</head>
+
+<body>
+<header>
+	<div id="jeke"><a href="https://wallpaperset.com/w/full/a/d/3/45091.jpg">Jeke Kabinet</a></div>
+	<a href="#" title="logo" onclick="slowscroll">
+		<div id="logo">
+			<img src="img/logo.png" width=100 height=70>
+		</div>
+	</a>
+</header>
+
+<div class= "row">
+	<div class="content">
+		<div class="inner-content">
+			<p id="FW">
+				СУ ЖАҢА SILVA 2 СМАРТФОНЫ!
+			</p>
+			
+	<div class="slideshow-container1">
+	
+		<div class="mySlides">
+        <img id="slide" src="img/jet2.jpg" width="600" height="600">
+		</div>
+		
+		<div class="mySlides">
+        <img id="slide" src="img/jet1.jpg" width="600" height="600">
+		</div>
+		
+		</div>
+		<br>
+		
+
+		<p id="FW1">
+				Смартфон құрылымндағы жаңа дәуір!
+				Жаңа технологиялар мен нәзік дизайнның топтамасы!
+				Ыңғайлы баға!
+				Керемет сапа!			
+											<div class="FAQ"><a href="Silva2.html">Қосымша</a></div>
+		</p>
+		
+		</div>
+		
+		<div class="inner-content2">
+		<p id="FW3">Silva watch</p>	
+		
+		<div class="slideshow-container2">
+		
+			<div class="mySlides2">
+			<img id="slide" src="img/sw1.jpg" width="600" height="600">
+			</div>
+		
+			<div class="mySlides2">
+			<img id="slide" src="img/sw2.jpg" width="600" height="600">
+			</div>
+			
+			<div class="mySlides2">
+			<img id="slide" src="img/sw3.jpg" width="600" height="600">
+			</div>		
+		
+			<div class="mySlides2">
+			<img id="slide" src="img/sw4.jpg" width="600" height="600">
+			</div>
+			
+			<a class="prev2" onclick="plusSlides(-1)">&#10094;</a>
+			</div>
+			</div>
+			<br>
+			
+			
+		<div class="inner-content3">
+		<p id="IC3Main">Jetistik-пен бірге жаңа шыңдарды бағындыр!</p>
+		<p id="FW4">Jetistik C.O. жүргізетін жыл аралық хакатонға қатыс! Жаңа белестер, жаңа таныстар, ескі мәселелерге жаңаша көзқарас!</p>
+		<img id="Hack" src="img/hack.jpeg" width = "1100" height = "600">
+		</div>
+		
+		<div class="inner-content4">
+		<p id="IC3Main">Jetistik фотокамералары үшін арнайы жарыс!</p>
+		<p id="FW4">Jetistik су жаңа фотокамераларын ұтып алудан кеш қалма! Өзіңнің күшіңе, шабытыңа сенсең, Jetistik ұйымдастыратын конкурсқа қатыс! Өзіңнің фотоға түсірген керемет туындыңды тірке де жүлделерге қол жеткізуге қадам бас! </p>
+		<img id="pgvn" src="img/pgvn.jpg" width = "70%" height = "50%">
+		</div>
+		
+		<div class="inner-content5">
+			<a href="https://www.google.com/">
+			<img id="last" src="img/jet3.jpg" width = "50%" height="90%"></a>
+			<p id="LFW">Jetistik смартфондарын сатып алу және қолдану үшін арнайы ұсыныс! Ол үшін небәрі ...</p>
+		
+		</div>
+		
+		</div>
+	</div>
+
+
+
+
+<div class="footer">
+<div id="inner-footer">
+	<div class="icons">
+	<a href="https://www.instagram.com/am1riki/"><img src="img/inst_icon.png"></a>
+	<a href="https://www.facebook.com/amirbek.mukushef/"><img src="img/fb_icon.png"></a>
+	<a href="https://www.youtube.com/channel/UCTs7QlisvaqSWrTCk4Tohpw/featured?view_as=subscriber"><img src="img/you2_icon.png"></a>
+	</div>
+	
+	<p id="info">
+	БІЗГЕ ӘЛЕУМЕТТІК ЖЕЛІЛЕРДЕ ҚОСЫЛЫҢЫЗ
+	</p>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 100000);
+    }</script>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000);
+}
+</script>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides2");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+</body>
+</html>
